@@ -3,6 +3,9 @@ div.a {
 }
 div.b {
 text-align: left;
+border-top: 2px solid #B33951;
+border-bottom: 2px solid #B33951;
+margin: 5px;
 }
 body {
   background: #C2BBF0;
