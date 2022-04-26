@@ -1,0 +1,28 @@
+div.a {
+  text-align: center;
+}
+div.b {
+text-align: left;
+}
+body {
+  background: #C2BBF0;
+}
+  h1 {
+    color: #B33951;
+    font-family: verdana;
+    
+  }
+  h5 {
+    color: #091540;
+    font-family: verdana;
+  }
+  h4 {
+    color: #091540;
+    font-family: verdana;
+  }
+  h3 {
+    border: 2px solid powderblue;
+    padding: 5px;
+    color: #A8577E;
+    border-style: dotted;
+  }
