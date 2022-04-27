@@ -18,14 +18,15 @@
         Sobre mim:
       </h5>
         <p>
-      <img src="https://cdn.discordapp.com/attachments/540974952875032586/968697132842360832/unknown.png" alt="Eu" width="500" height="500">
+      <img src="https://cdn.discordapp.com/attachments/540974952875032586/968697132842360832/unknown.png" alt="Eu" width="320" height="320">
         </p>
       Eu sou muito bonito e cheiroso.
+      <p> Também trabalho com animações e edições de vídeo, faço isso por lazer desde 2014, quando descobri o youtube.
       </figure>
       <h5>Meus trabalhos:</h5>
       <video width="320" height="240" controls src="https://cdn.discordapp.com/attachments/540974952875032586/933204333359677450/dok_fuo.mp4" type="video/mp4"></video>
       <video width="320" height="240" controls src="https://uploads.twitchalerts.com/000/048/760/495/Sequence%2007.webm" type="video/webm"></video>
-      <video width="320" height="240" controls src="https://cdn.discordapp.com/attachments/669244909353566229/880871128900440074/donate.webm" type="video/webm"></video></h5>
+      <video width="320" height="240" controls src="https://cdn.discordapp.com/attachments/669244909353566229/880871128900440074/donate.webm" type="video/mp4"></video></h5>
       
         <audio src="https://vgmsite.com/soundtracks/animal-crossing-new-leaf/zkmydake/104%20-%20Able%20Sisters%20-%20Sable%20and%20Mabel.mp3" type="audio/mp3" loop autoplay></audio>
         <p></p>
@@ -37,14 +38,18 @@
       </div>
       <div class="content-form">
         <form>
-          <input type="radio" id="pessimo" name="avaliacao" value="Péssimo">
-          <label for="html">Péssimo</label><br>
-          <input type="radio" id="mediano" name="avaliacao" value="Mediano">
-          <label for="mediano">Mediano</label><br>
-          <input type="radio" id="otimo" name="avaliacao" value="Ótimo">
-          <label for="otimo">Ótimo</label><p>
-          <button type="submit" class="btn-app" onclick="alert('Obrigado pela avaliação!')">Confirmar avaliação</button></p>
+          <input type="radio" id="input_pessimo" name="avaliacao" value="Péssimo">
+          <label for="input_pessimo">Péssimo</label><br>
+          <input type="radio" id="input_mediano" name="avaliacao" value="Mediano">
+          <label for="input_mediano">Mediano</label><br>
+          <input type="radio" id="input_otimo" name="avaliacao" value="Ótimo">
+          <label for="input_otimo">Ótimo</label><p>
+          <button type="submit" name="avaliacao" onclick="alert('Obrigado pela avaliação!')">Confirmar avaliação</button></p>
         </form>
+        <!--<p>
+          Avaliação dada:
+          <span id="result"></span>
+        </p>-->
       </div>
     </div>
   </body>
